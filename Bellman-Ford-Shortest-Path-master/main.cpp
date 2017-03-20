@@ -52,7 +52,7 @@ int* BellmanFord(struct Graph* graph, int src)
     int V = graph->V;
     int E = graph->E;
     int dist[V];
-    int *res = new int[V];
+    int *res = new int[V]; //Areglo que se retorna con la cantidad de veces que se hace el relax en cada vertice
 
     // Step 1: Initialize distances from src to all other vertices
     // as INFINITE
@@ -74,7 +74,7 @@ int* BellmanFord(struct Graph* graph, int src)
             int weight = graph->edge[j].weight;
             if (dist[u] != INT_MAX && dist[u] + weight < dist[v]){
                 dist[v] = dist[u] + weight;
-                res[v]=u;
+                res[v]=u; //Se asigna
             }
         }
     }
@@ -92,10 +92,12 @@ int* BellmanFord(struct Graph* graph, int src)
             printf("Graph contains negative weight cycle");
     }
 
+    printArr(dist, V);
 
     for(int i=0; i<5; i++){
         cout<<"RESPUESTA: "<<res[i]<<endl;
     }
+    cout<<endl;
     return res;
 }
 
