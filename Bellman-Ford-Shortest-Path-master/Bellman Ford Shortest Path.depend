@@ -17,3 +17,21 @@
 1489992932 source:c:\users\daniela\downloads\bellman-ford-shortest-path-master\bellman-ford-shortest-path-master\test.cpp
 	"Test.h"
 
+1489992932 source:c:\users\daniela\documents\github\tarea6_analisis_algoritmos\bellman-ford-shortest-path-master\test.cpp
+	"Test.h"
+
+1489964521 c:\users\daniela\documents\github\tarea6_analisis_algoritmos\bellman-ford-shortest-path-master\test.h
+	<iostream>
+	<vector>
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
+1490045050 source:c:\users\daniela\documents\github\tarea6_analisis_algoritmos\bellman-ford-shortest-path-master\main.cpp
+	"Test.h"
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<limits.h>
+
